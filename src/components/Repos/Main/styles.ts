@@ -5,6 +5,33 @@ export const Container = styled.div`
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 
     max-width: 100%;
+    .search{
+        display:flex;
+        flex-direction: row;
+        padding: 30px 5px;
+        
+        p{
+            margin:5px;
+            width: 50%;
+        }
+        input{
+            width: calc(100% - 26px);
+                outline: none;
+                margin-bottom: 1rem;
+                padding: 5px 12px;
+                line-height: 20px;
+                vertical-align: middle;
+                background: #0D1117;
+                color: #C9D1D9;
+                border: 1px solid #30363D; 
+                border-radius: 6px;
+                font-weight: 300;
+                font-size: 0.8rem;
+    
+                transition: all 0.2s;
+    
+        }
+    }
 
     @media (max-width: 500px) {
         padding: 3.5rem 1rem 1rem 1rem;
