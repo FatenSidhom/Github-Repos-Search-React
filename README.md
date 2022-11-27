@@ -3,7 +3,7 @@
 ## 📝 Description
 This project allows you to fetch the github repositories of a user and then filter repositories by name
 
-**Link to project:**  https://adorable-longma-38fa6d.netlify.app
+**Link to project:**  https://github-repos-search-react.netlify.app/
 ## 🚀 Run on your machine
 
 Note: it requires yarn or npm installed 
