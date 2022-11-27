@@ -8,12 +8,14 @@ import { useEffect, useState } from "react";
 export function Main() {
   const { repos } = useUser();
   const [reposList, setReposList] = useState(repos);
-
   const [search, setSearch] = useState("");
+   /**
+     * Filtering repositories by name
+     */
   useEffect(() => {
     let filtered = repos;
       filtered = filtered.filter((repo) =>
-        repo.name.includes(search)
+        repo.name.toLowerCase().includes(search.toLowerCase())
       );
     setReposList(filtered);
   }, [repos, search]);

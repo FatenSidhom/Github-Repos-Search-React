@@ -59,7 +59,9 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
     const [auxUser, setAuxUser] = useState<string | undefined>();
     const [lastPage, setLastPage] = useState<string | undefined>();
     const history = useHistory();
-
+ /**
+     * Fetch user from the github API by username
+     */
     async function searchUser(username: string | undefined): Promise<number | void> {
         try {
             return await api.get(`users/${username}`)
@@ -77,7 +79,9 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
         setUser({} as UserData);
         history.push('/');
     }
-
+/**
+     * Fetch user repositories from the github API 
+     */
     async function userRepos() {
         try {
             await api.get(`users/${user.login}/repos`)
@@ -87,7 +91,9 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
             toast.error('Something went wrong :(', {theme: "colored"});
         }
     }
-
+/**
+     * Fetch user followers from the github API 
+     */
     async function userFollowers() {
         try {
             await api.get(`users/${user.login}/followers`)
@@ -97,7 +103,9 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
             toast.error('Something went wrong :(', {theme: "colored"});
         }
     }
-
+/**
+     * Fetch user following accounts from the github API 
+     */
     async function userFollowing() {
         try {
             await api.get(`users/${user.login}/following`)
