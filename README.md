@@ -45,4 +45,4 @@ yarn start
 
 ## ☕ Feedback on the exercise
 - Working on this Task, I used TypeScript within react for the first time and i found that to be very insightful.
- It was a good experience as a whole and i realy enjoyed rising up to the challenge.
+ It was a good experience as a whole and i really enjoyed rising up to the challenge.
