@@ -1,4 +1,5 @@
 # Github-Repos-Search-React
+![demo-github-repos-search-react](https://user-images.githubusercontent.com/79748409/204153223-5ac3aeee-9cad-4dcc-9dbe-3e88c0bca1fc.gif)
 
 ## 📝 Description
 This project allows you to fetch the github repositories of a user and then filter repositories by name
@@ -41,8 +42,9 @@ yarn start
 3. React Icons
 
 ## 🤔 Future improvements
-- add Storybook to create organized UI systems making both the building process and documentation more efficient and easier to use.
-- add Pagination for fetching repos.
+- Add storybook to create organized UI systems making both the building process and documentation more efficient and easier to use.
+- Add unit and integration testing.
+- Add pagination for fetching repos.
 
 ## ☕ Feedback on the exercise
 - Working on this Task, I used TypeScript within react for the first time and i found that to be very insightful.
