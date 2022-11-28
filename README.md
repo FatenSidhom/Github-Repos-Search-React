@@ -1,5 +1,4 @@
 # Github-Repos-Search-React
-![demo-github-repos-search-react](https://user-images.githubusercontent.com/79748409/204153223-5ac3aeee-9cad-4dcc-9dbe-3e88c0bca1fc.gif)
 
 ## 📝 Description
 This project allows you to fetch the github repositories of a user and then filter repositories by name
